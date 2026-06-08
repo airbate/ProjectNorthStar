@@ -1,15 +1,19 @@
-# Project North Star
+# Project North Star — airbate fork
 
-[![Project North Star Headset](http://blog.leapmotion.com/wp-content/uploads/2018/04/hero-unveil.png)](http://blog.leapmotion.com/northstar/)
+Fork of [Leap Motion's Project North Star](https://github.com/leapmotion/ProjectNorthStar) AR headset.
 
-Community organized instructions here: https://project-north-star.gitbook.io/project-north-star/
+## What's different in this fork
 
-Hardware BOM, fabrication, and assembly instructions start here: https://github.com/leapmotion/ProjectNorthStar/tree/master/Mechanical
+This fork includes hardware-level modifications and engineering notes from multiple build cycles:
 
-Software setup and calibration starts here: https://github.com/leapmotion/ProjectNorthStar/tree/master/Software
+- **Display driver electronics** — power rail noise reduction, FPC signal conditioning, thermal management
+- **Optical alignment** — kinematic reflector mounts with repeatable sub-0.05mm positioning
+- **Mechanical chassis** — PETG-CF structural parts, TPU facial interface, aluminum reinforcements
+- **Weight distribution** — rear counterweight relocation, improved comfort for extended wear
+- **Cable management** — single-exit managed bundle, strain-relief block design
 
-## Additional Resources
+Read the full documentation: **[TECHNICAL_NOTES.md](TECHNICAL_NOTES.md)**
 
-* Join the community for the bleeding edge updates on [Discord](https://discord.gg/NghjdX7)
-* Scroll through the latest posts on [Reddit](https://www.reddit.com/r/ProjectNorthStar/)
-* Keep up with our project updates on [Leap Motion Blog](http://blog.leapmotion.com/)
+---
+
+Original README from Leap Motion follows below.
